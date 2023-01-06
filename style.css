@@ -41,7 +41,7 @@ column-count: 2;
     font-size: 14px;
     color: var(--light-grey);
     display: flex;
-    margin-right: -510px;
+    margin-right: -520px;
 }
 
 #conterdown-timer{

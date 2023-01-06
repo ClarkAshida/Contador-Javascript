@@ -1,0 +1,92 @@
+:root {
+    --black: #4D4C59;
+    --purple: #6C63FF;
+    --light-grey: #C8C8C8;
+    --text-color: #9C9AB6;
+}
+
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap);
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+}
+
+body{
+    background-color: #fefefe;
+}
+
+.counter-container{
+column-count: 2;
+}
+
+.counter-container h1{
+    font-size: 36px;
+    color: var(--purple);
+    letter-spacing: 2px;
+    margin: 30px 0px 30px 165px;
+}
+
+.counterdown{
+    margin-left: 170px;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.counterdown p{
+    font-weight: 300;
+    font-size: 14px;
+    color: var(--light-grey);
+    display: flex;
+    margin-right: -510px;
+}
+
+#conterdown-timer{
+    margin-left: 150px;
+}
+
+#conterdown-timer span{
+    color: var(--black);
+    font-weight: 400;
+    font-size: 72px;
+    margin-right: 5px;
+}
+
+.counter-subscribe p{
+    color: var(--text-color);
+    margin: 30px 0px 30px 220px;
+}
+
+.counter-subscribe button{
+    color: #ffff;
+    height: 46px;
+    width: 160px;
+    font-weight: 300;
+    font-size: 16px;
+    border-radius: 10px;
+    background-color: var(--purple);
+    border: none;
+    cursor: pointer;
+    margin-left: 300px;
+    transition: all 0.3s ease-in-out;
+}
+
+.counter-subscribe button:hover {
+    transform: scale(1.1);
+}
+
+.counter-img{
+    width: 550px;
+    height: 435px;
+    position: relative;
+    top: 20px;
+    left: 50px;
+}
+
+.img{
+    position: absolute;
+    bottom: 0px;
+}
